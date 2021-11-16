@@ -33,7 +33,7 @@ router.get("/", (req, res) => {
       //   loggedIn: req.session.loggedIn
       // });
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err);
       res.status(500).json(err);
     });
@@ -83,7 +83,7 @@ router.get("/post/:id", (req, res) => {
         loggedIn: req.session.loggedIn
       });
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err);
       res.status(500).json(err);
     });
@@ -138,7 +138,7 @@ router.get("/all-dishes", (req, res) => {
       //   loggedIn: req.session.loggedIn
       // });
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err);
       res.status(500).json(err);
     });
@@ -168,7 +168,7 @@ router.get("/Chinese", (req, res) => {
 
       res.render("chinese-page", handlebarsObj);
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err);
       res.status(500).json(err);
     });
@@ -198,7 +198,7 @@ router.get("/Mexican", (req, res) => {
 
       res.render("mexican-page", handlebarsObj);
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err);
       res.status(500).json(err);
     });
@@ -228,7 +228,7 @@ router.get("/Italian", (req, res) => {
 
       res.render("italian-page", handlebarsObj);
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err);
       res.status(500).json(err);
     });
