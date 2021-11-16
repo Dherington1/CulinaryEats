@@ -37,7 +37,7 @@ router.get("/", (req, res) => {
     .then((postData) => {
       res.send(postData);
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err);
       res.status(500).json(err);
     });
@@ -56,7 +56,7 @@ router.post("/", (req, res) => {
       // with post we just want to send our created data
       res.send(newPostData);
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err);
       res.status(500).json(err);
     });
@@ -102,7 +102,7 @@ router.delete("/:id", withAuth, (req, res) => {
       }
       res.json(dbPostData);
     })
-    .catch(err => {
+    .catch((err) => {
       console.log(err);
       res.status(500).json(err);
     });
