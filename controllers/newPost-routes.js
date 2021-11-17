@@ -38,7 +38,7 @@ router.get('/',  withAuth,(req, res) => {
         // const posts = dbPostData.map(post => post.get({ plain: true }));/
         res.render('newPost');
     })
-        .catch(err => {
+        .catch((err) => {
         console.log(err);
         res.status(500).json(err);
     });
