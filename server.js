@@ -41,6 +41,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 // app.use(express.static(path.join(__dirname, 'assets')));
 
+app.use(express.static('public/image'));
+app.use(express.static('stylesheets'));
 
 // turn on routes
 app.use(routes);
