@@ -4,22 +4,25 @@
             
             <div class="box has-background-grey-lighter">
                <article class="post">
-                <div class="title">
-                  <a href="/post/{{post.id}}">{{post.title}}</a>
 
+                <div class="title">
+                  <h1 align="center" class="recipe-card__heading">{{post.title}}</h1><br>
                 </div>
-                <h3>Description: </h3>
+
+                <h3><b>Description:</b></h3>
                 <div class="meta">
                   {{post.description}}
                 </div>
                 </br>
-                <h3>Ingredients:</h3>
+
+                <h3><b>Ingredients:</b></h3>
                 <div class="meta">
                   {{post.ingredients}}
                 </div>
                 </br>
+
+                <h3><b>Instructions: </b></h3>
                 <div class="meta">
-                  Instructions:
                   {{post.instructions}}
                 </div>
               </article>
@@ -27,7 +30,6 @@
       </div>
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </div>
-
 
 
 

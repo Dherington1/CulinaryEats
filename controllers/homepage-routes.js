@@ -155,7 +155,7 @@ router.get("/Chinese", (req, res) => {
       "category",
     ],
     where: {
-      category: "chinese",
+      category: "Chinese",
     },
   })
     .then((dbPostData) => {
@@ -174,6 +174,38 @@ router.get("/Chinese", (req, res) => {
     });
 });
 
+
+
+router.get("/American", (req, res) => {
+  Post.findAll({
+    attributes: [
+      "id",
+      "description",
+      "ingredients",
+      "instructions",
+      "title",
+      "category",
+    ],
+    where: {
+      category: "American",
+    },
+  })
+    .then((dbPostData) => {
+      // then we want to grab homepage structure and dbpostdata
+      // This will loop over and map each Sequelize object into a serialized version of itself, saving the results in a new posts array.
+      const posts = dbPostData.map((post) => post.get({ plain: true }));
+      // console.log(posts);
+
+      const handlebarsObj = { posts: posts };
+
+      res.render("american", handlebarsObj);
+    })
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
+    });
+});
+
 router.get("/Mexican", (req, res) => {
   Post.findAll({
     attributes: [
@@ -185,7 +217,7 @@ router.get("/Mexican", (req, res) => {
       "category",
     ],
     where: {
-      category: "mexican",
+      category: "Mexican",
     },
   })
     .then((dbPostData) => {
@@ -215,7 +247,7 @@ router.get("/Italian", (req, res) => {
       "category",
     ],
     where: {
-      category: "italian",
+      category: "Italian",
     },
   })
     .then((dbPostData) => {
@@ -235,11 +267,5 @@ router.get("/Italian", (req, res) => {
 });
 
 
-router.get("/logout", (req,res) => {
-
-    
-
-
-})
 
 module.exports = router;
