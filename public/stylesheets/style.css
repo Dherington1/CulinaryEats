@@ -11,7 +11,17 @@ body {
     width: 75%;
     margin:auto;
     
-  }
+}
+
+
+.signUpBtn{
+  align-items: center;
+}
+
+
+#post-title{
+  margin-top: 25px;
+}
 
 #login {
     width: 75%;
@@ -42,10 +52,6 @@ body {
     margin: 8px 0;
     box-sizing: border-box;
     margin:auto;
-  }
-
-  .signup-button{
-    text-align: center;
   }
 
   
@@ -133,7 +139,7 @@ h1 {
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     column-count: 1;
     li {
       margin-bottom: 5px;

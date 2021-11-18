@@ -21,25 +21,17 @@ Post.init(
     },
     //may need to adjust
     ingredients: {
-      type: DataTypes.STRING(5000),
+      type: DataTypes.STRING(7000),
       allowNull: false,
     },
     instructions: {
-      type: DataTypes.STRING(5000),
+      type: DataTypes.STRING(7000),
       allowNull: false,
     },
     category: {
       type: DataTypes.STRING,
       allowNull: false,
-    },
-    // used for who posted comment
-    // user_id: {
-    //   type: DataTypes.INTEGER,
-    //   references: {
-    //     model: 'user',
-    //     key: 'id'
-    //   }
-    // }
+    }
   },
   {
     sequelize,

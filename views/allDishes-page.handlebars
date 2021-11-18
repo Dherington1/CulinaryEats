@@ -1,37 +1,48 @@
 <div class="container is-mobile">
 
+  
+
+
+
+  {{#each posts as |post|}}
 <div class="recipe-card">
-  <div style="background:url(https://images.pexels.com/photos/4551832/pexels-photo-4551832.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat 50% 50%; background-size:cover; height: 150px"></div>
-<div class="recipe-card__body">
-    <h1 class="recipe-card__heading">All Recipies</h1><br>
-        <div class="col-lg-12">
-            
-          
-            {{#each posts as |post|}}
-            
-              <article class="post">
-                <div class="title">
-                  <a href="/post/{{id}}">{{post.title}}</a>
-                  
-              </div>
-                <h3>Description: </h3>
-                <div class="meta">
-                  {{post.description}}
-                </div>
-                </br>
-                <h3>Ingredients:</h3>
-                <div class="meta">
-                  {{post.ingredients}}
-                </div>
-                </br>
-                <div class="meta">
-                  Instructions:
-                  {{post.instructions}}
-                </div>
-            
-            {{/each}}
-        </div>
-</div>
+    <h1 align="center" class="recipe-card__heading">{{post.title}}</h1><br>
+
+  <div class="recipe-card__body">
+    <!-- <h2 class="recipe-card__subhead">Crunchy around the edges, softer in the center, these oatmeal cookies feature the nutty taste and nubbly texture of oats. </h2> -->
     
+    <ul class="recipe-card__nav w3-padding">
+
+      <li>
+        <h3><b>Description: </b></h3>
+      </li>
+       <ul>
+        {{post.description}}
+      </ul>
+
+      <br>
+
+      <li>
+        <h3><b>Ingredients:</b></h3>
+      </li>
+      <ul class="recipe-card__ingredients">
+        {{post.ingredients}}
+      </ul>
+
+      <br>
+
+      <li>
+        <h3><b>instructions:</b></h3>
+      </li>
+      <ul>
+        {{post.instructions}}
+      </ul>
+    </ul>
+
+  </div>
+  
+</div>
+{{/each}}
+      
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </div>

@@ -32,8 +32,8 @@ function goBack() {
   document.location.replace("/");
 }
 
-document.querySelector(".signupBtn").addEventListener("click", signupForm);
-document.querySelector("#cancel").addEventListener("click", goBack);
+document.querySelector(".signUpBtn").addEventListener("click", signupForm);
+// document.querySelector("#cancel").addEventListener("click", goBack);
 
 
 

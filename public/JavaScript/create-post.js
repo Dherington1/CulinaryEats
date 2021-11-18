@@ -1,6 +1,6 @@
 async function newFormHandler(event) {
   event.preventDefault();
-
+  console.log("click")
   const title = document.querySelector("#post-title").value;
   const description = document.querySelector("#description").value;
   const ingredients = document.querySelector("#ingredients").value;
@@ -27,4 +27,4 @@ async function newFormHandler(event) {
   }
 }
 
-document.querySelector(".new-post-form").addEventListener("click", newFormHandler);
+document.querySelector("#createBtn").addEventListener("click", newFormHandler);

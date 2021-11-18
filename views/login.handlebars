@@ -3,14 +3,17 @@
 
 
 <div class="w3-container w3-padding-2" id="login">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Login</h3> <br>
+    <h3 align="center" class="w3-border-bottom w3-border-light-grey w3-padding-16">Login</h3> <br>
     
     <form action="/action_page.php" target="_blank">
-      <input class="w3-input w3-border" type="text" placeholder="User Name" required name="User Name">
-      <input class="w3-input w3-section w3-border" type="password" placeholder="Password" required name="Password">
-      <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> Login
-      </button>
+      <input class="w3-input w3-border" id="email-login" type="email" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" id="password-login" type="password" placeholder="Password" required name="Password">
+
+      <div class="box has-text-centered">
+        <button class="w3-button w3-black w3-section" id="loginBtn" type="submit">
+          <i class="fa fa-paper-plane"></i> Login
+        </button>
+      </div>
     </form>
   </div>
 

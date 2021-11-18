@@ -6,11 +6,15 @@
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Sign up below to share new recipies!</h3> <br>
     
     <form action="/action_page.php" target="_blank">
-      <input class="w3-input w3-border" type="text" placeholder="User Name" required name="User Name">
-      <input class="w3-input w3-section w3-border" type="password" placeholder="Password" required name="Password">
-      <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> Sign up
-      </button>
+      <input class="w3-input w3-border" type="text" id="username-signup" placeholder="User Name" required name="User Name">
+      <input class="w3-input w3-section w3-border" id="email-signup" type="email" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" id="password-signup" type="password" placeholder="Password" required name="Password">
+
+      <div class="box has-text-centered">
+        <button class="w3-button w3-black w3-section signUpBtn" type="submit">
+          <i class="fa fa-paper-plane"></i> Sign up
+        </button>
+      </div>
     </form>
   </div>
 

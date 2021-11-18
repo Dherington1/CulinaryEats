@@ -36,5 +36,5 @@ async function loginForm (event) {
 }
 
 // listeners
-document.querySelector('#signupBtn').addEventListener('click', loginForm);
+document.querySelector('#loginBtn').addEventListener('click', loginForm);
 

@@ -11,8 +11,6 @@ router.get("/", (req, res) => {
     attributes: [
       "id",
       "description",
-      // 'ingredients',
-      // 'instructions',
       "title",
       "category",
     ],
@@ -28,10 +26,7 @@ router.get("/", (req, res) => {
       };
 
       res.render("homepage", handlebarsObj);
-      // res.render('homepage', {
-      //   handlebarsObj,
-      //   loggedIn: req.session.loggedIn
-      // });
+      
     })
     .catch(err => {
       console.log(err);

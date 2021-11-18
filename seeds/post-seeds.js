@@ -6,27 +6,14 @@ const postdata = [
     description: "Home made Gnocchi, for you and your family to love.",
     ingredients: "Ingredients: 1-1/2 lbs. boiling potatoes (Yukon gold recommended), 1-1/2 cp. Flour, Extra flour as needed for rolling, Salt (to taste)",
     instructions: `
-    Instructions: 1. Place the unpeeled potatoes in a large pot. Fill the pot with enough cold water to cover the potatoes by at least 2 inches. Bring to a simmer
+    1. Place the unpeeled potatoes in a large pot. Fill the pot with enough cold water to cover the potatoes by at least 2 inches. Bring to a simmer
     over medium-high heat. Reduce the heat to medium, partially cover the pot, and simmer the potatoes until they are completely tender and easily pierced with a fork, about 30 to 35 mins.
     2. Drain the potatoes and let them cool just enough that you can handle them. Gently peel the potatoes. Cut them in half crosswise and pass them through a ricer. You can mash them as ,
     you would normally do for mashed potatoes, but a ricer is more effective at creating a smooth mash. Let cool until almost at room temperature, at least 20 mins.
     3. Lightly flour your work surface. In a medium bowl, combine the flour, salt, and potatoes mash. Using your heads, combine all the ingredients until a dough is formed. Press the dough into
     the bowl until you have a unified mass.`,
-    // 4. Place said mass onto your work surface. Knead gently until the flour is fully incorporated and the dough is soft and smooth, about 30 secs. to 1 min. WARNING: DO NOT OVERWORK YOUR DOUGH!
-    // Doing so will create tough gnocchi, which are not pleasant. Set dough aside and place a clean kitchen towel over it to prevent it from drying out. 5. Remove any remaining bits 
-    // of dough from your work surface. Re-flour the surface. Tear off a piece of dough about the size of a large lemon and put the towel back onto the remaining dough.
-    // 6. With the palm of both hands, roll the dough piece on the floured surface into a rope about 3/4 inch in diameter.
-    // 7. With a sharp knife or bench knife, cut the rope crosswise every 3/4 inch to make roughly 3/4 inch square gnocchi. Arrange gnocchi in a single layer on parchment-covered baking sheets, making sure they do not touch.
-    // 8. This step is optional. If you want to get that traditional gnocchi look, all you need is a fork (though having a gnocchi press makes life so much easier). Place your
-    // fork on your work surface such that the tips of the fork are touching the work surface. Gently slide each gnocchi square from the base of the fork prongs to the top.
-    // 9. Repeat steps 5-8 until you have run out of dough. When all gnocchi have been placed on the parchment lined baking sheets, sprinkle some flour on top of them.
-    // NOTE: Gnocchi should be used within 2 to 3 hours of making if you are not planning on refrigerating or freezing them. You can serve freshly made gnocchi right away or within a couple of hours, or you can freeze them
-    // for later use. Put the gnocchi in the freezer while they’re still on the baking sheets and freeze until they are hard to the touch, at least one hour. Transfer them to a large zip-top bag or several smaller bags and 
-    // freeze for up to two months. Cook frozen gnocchi in boiling water in two batches. Frozen gnocchi cause the temperature of the cooking water to drop, so they’ll fall apart before the water returns to a boil if there 
-    // are too many in the pot. Don’t refrigerate fresh gnocchi for more than two or three hours, as they tend to ooze water and become soggy.`,
     category: "italian",
-    // post_url: 'https://buzzfeed.com/in/imperdiet/et/commodo/vulputate.png',
-    // user_id: 1
+    
   },
   {
     title: "Cottage Pie",
@@ -45,42 +32,77 @@ const postdata = [
     5.Meanwhile, toss avocado and lime juice in a bowl with 1/2 tsp salt flakes.`,
     instructions: "Remove nachos from oven and scatter over chilli. Spoon over creme fraiche, top with coriander leaves and serve with lime wedges, Tabasco, if using, and avocado mixture alongside.",
     category: "mexican"
-    // post_content: `words`,
-    // title: "Riccota Cheese",
-    // post_content: `Ingredients: ½ gallon (2L) whole milk (can substitute with lactose free whole milk), 1/3 cp. (75mL) distilled white vinegar or lemon juice, ¼ to ½ tsp kosher salt. Instructions: 1. Set up a strainer over a bowl and line the strainer with cheesecloth (a total of four layers of cloth); set aside. 2. Heat milk in a large pot with a thermometer attached to the pot. Heat over medium heat, whisking often. Bring the milk up to 180 degrees F (83 degrees). 3. Remove the pot from the burner and whisk in vinegar or lemon juice and salt. Allow to sit undisturbed for at least 10 minutes. 4. Use a large spoon to scoop out curds from the whey and gently place in the cheesecloth covered strainer to drain the remaining whey from the curds.  Pour remaining curds and liquid. 5. Allow curds to drain for 5 to 20 minutes depending on the dryness and texture that you want. This cheese will be ready to use immediately, or you can refrigerate the cheese for up to 2 days.`,
-    // category: "italian",
-    // post_url: 'https://buzzfeed.com/in/imperdiet/et/commodo/vulputate.png',
-    // user_id: 1
+   
+  },
+  {
+    title: "Easy Chicken Flautas",
+    description: `Rolled tacos; these are the best. I learned how to make them and my husband loved them.`,
+    ingredients: `¼ cup butter
+
+    ¼ cup all-purpose flour
+    
+    ¼ cup minced onion
+    
+    ¼ cup chopped black olives
+    
+    2 tablespoons lemon juice
+    
+    1 tablespoon oil
+    
+    ¼ teaspoon ground paprika
+    
+    ⅛ teaspoon ground black pepper
+    
+    ⅛ teaspoon salt
+    
+    1 ½ cups cooked shredded chicken
+    
+    8 flour tortillas
+    
+    oil for frying, or as needed
+    
+    toothpicks`,
+    instructions: `Melt butter in a skillet over medium heat; stir flour into butter until smooth. Add onion to flour-butter mixture; cook and stir until onion is softened, 5 to 10 minutes. Mix black olives, lemon juice, oil, paprika, black pepper, and salt into onion mixture; cook and stir until heated through, about 2 minutes. Stir chicken into mixture and remove skillet from heat and cover.
+
+    Step 2
+    Heat oil in a large, heavy saucepan or deep-fryer.
+    
+    Step 3
+    Fill tortillas with chicken mixture. Roll tortilla around filling and secure with a toothpick.
+    
+    Step 4
+    Fry the rolled tortillas, working in batches, in the hot oil until browned, about 2 minutes. Transfer fried tortillas to a paper towel-lined plate using a slotted spoon or tongs.`,
+    category: "mexican"
   },
   {
     title: "Pork Dumplings",
     description: 'These tasty treats make a perfect appetizer or you can serve them as a main dish. For a main dish count on about 15 dumplings per person. Serve with hoisin sauce, hot Chinese-style mustard and toasted sesame seeds.',
     ingredients: `100 (3.5 inch square) wonton wrappers
 
-    1 ¾ pounds ground pork
+    1 ¾ pounds ground pork,
     
-    1 tablespoon minced fresh ginger root
+    1 tablespoon minced fresh ginger root,
     
-    4 cloves garlic, minced
+    4 cloves garlic, minced,
     
-    2 tablespoons thinly sliced green onion
+    2 tablespoons thinly sliced green onion,
     
-    4 tablespoons soy sauce
+    4 tablespoons soy sauce,
     
-    3 tablespoons sesame oil
+    3 tablespoons sesame oil,
     
-    1 egg, beaten
+    1 egg, beaten,
     
     5 cups finely shredded Chinese cabbage`,
     instructions: `
     Step 1
-In a large bowl, combine the pork, ginger, garlic, green onion, soy sauce, sesame oil, egg and cabbage. Stir until well mixed.
+    In a large bowl, combine the pork, ginger, garlic, green onion, soy sauce, sesame oil, egg and cabbage. Stir until well mixed.
 
-Step 2
-Place 1 heaping teaspoon of pork filling onto each wonton skin. Moisten edges with water and fold edges over to form a triangle shape. Roll edges slightly to seal in filling. Set dumplings aside on a lightly floured surface until ready to cook.
+    Step 2
+    Place 1 heaping teaspoon of pork filling onto each wonton skin. Moisten edges with water and fold edges over to form a triangle shape. Roll edges slightly to seal in filling. Set dumplings aside on a lightly floured surface until ready to cook.
 
-Step 3
-To Cook: Steam dumplings in a covered bamboo or metal steamer for about 15 to 20 minutes. Serve immediately.`,
+    Step 3
+    To Cook: Steam dumplings in a covered bamboo or metal steamer for about 15 to 20 minutes. Serve immediately.`,
     category: "chinese",
   },
   {
@@ -88,23 +110,23 @@ To Cook: Steam dumplings in a covered bamboo or metal steamer for about 15 to 20
     description: `Pan fried chicken cubes served with a sweet and sour sauce.`,
     ingredients: `1 (8 ounce) can pineapple chunks, drained (juice reserved)
 
-    ¼ cup cornstarch
+    ¼ cup cornstarch,
     
-    1 ¾ cups water, divided
+    1 ¾ cups water, divided,
     
-    ¾ cup white sugar
+    ¾ cup white sugar,
     
-    ½ cup distilled white vinegar
+    ½ cup distilled white vinegar,
     
-    2 drops orange food color
+    2 drops orange food color,
     
-    8 skinless, boneless chicken breast halves - cut into 1 inch cubes
+    8 skinless, boneless chicken breast halves - cut into 1 inch cubes,
     
-    2 ¼ cups self-rising flour
+    2 ¼ cups self-rising flour,
     
-    2 tablespoons vegetable oil
+    2 tablespoons vegetable oil,
     
-    2 tablespoons cornstarch
+    2 tablespoons cornstarch,
     
     ½ teaspoon salt
     `,
@@ -119,11 +141,50 @@ To Cook: Steam dumplings in a covered bamboo or metal steamer for about 15 to 20
     Step 4
     When ready to serve, layer green peppers, pineapple chunks, and cooked chicken pieces on a platter. Pour hot sweet and sour sauce over top.`,
     category: "chinese"
-  }
-
-
-
-
+  },
+  {
+    title: "Texas-Style Beef Brisket",
+    description: "A friend had success with this recipe, so I tried it. When my husband told me how much he loved it, I knew I'd be making it often.&mdash;Vivian Warner, Elkhart, Kansas",
+    ingredients: `3 tablespoons Worcestershire sauce
+    1 tablespoon chili powder,
+    2 garlic cloves, minced,
+    1 teaspoon celery salt,
+    1 teaspoon pepper,
+    1 teaspoon liquid smoke, optional,
+    1 fresh beef brisket (6 pounds),
+    1/2 cup beef broth,
+    2 bay leaves,
+    barbecue sauce:
+    1 medium onion, chopped
+    2 tablespoons canola oil
+    2 garlic cloves, minced
+    1 cup ketchup,
+    1/2 cup molasses,
+    1/4 cup cider vinegar,
+    2 teaspoons chili powder,
+    1/2 teaspoon ground mustard`,
+    instructions: `In a large bowl or shallow dish, combine the Worcestershire sauce, chili powder, bay leaves, garlic, celery salt, pepper and, if desired, liquid smoke. Cut brisket in half; add to bowl and turn to coat. Cover and refrigerate overnight.
+    Transfer beef to a 5- or 6-qt. slow cooker; add broth and bay leaves. Cover and cook on low for 6-8 hours or until tender.
+    For sauce, in a small saucepan, saute onion in oil until tender. Add garlic; cook 1 minute longer. Stir in the remaining ingredients; heat through.
+    Remove brisket from the slow cooker; discard bay leaves. Place 1 cup cooking juices in a measuring cup; skim fat. Add to the barbecue sauce. Discard remaining juices.
+    Return brisket to the slow cooker; top with sauce mixture. Cover and cook on high for 30 minutes to allow flavors to blend. Thinly slice beef across the grain; serve with sauce.
+    Freeze option: Place individual portions of sliced brisket in freezer containers; top with barbecue sauce. Cool and freeze. To use, partially thaw in refrigerator overnight. Heat through in a covered saucepan, gently stirring and adding a little water if necessary.`,
+    category: "american"
+  },
+  {
+    title: "All-American Banana Split",
+    description: "In 1904, the first banana split recipe was made here in Latrobe, Pennsylvania by David Strickler, an apprentice pharmacist at a local drug store. We still use his original formula when we make banana splits in our restaurants.",
+    ingredients: `1 medium banana, peeled and split lengthwise,
+    1 scoop each vanilla, chocolate and strawberry ice cream,
+    2 tablespoons sliced fresh strawberries or 1 tablespoon strawberry ice cream topping,
+    2 tablespoons pineapple chunks or 1 tablespoon pineapple ice cream topping,
+    2 tablespoons whipped cream,
+    1 tablespoon chopped peanuts,
+    1 tablespoon chocolate syrup,
+    2 maraschino cherries with stems`,
+    instructions: "Place banana in a dessert dish; place scoops of ice cream between banana. Top with remaining ingredients. Serve immediately.",
+    category: "american"
+  },
 ];
 
 const seedPosts = () => Post.bulkCreate(postdata);
